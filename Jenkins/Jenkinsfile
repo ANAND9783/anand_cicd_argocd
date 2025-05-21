@@ -6,7 +6,7 @@ pipeline {
         DOCKER_TAG = "${BUILD_NUMBER}"
         IMAGE_NAME = "anand757/anand"
         AWS_REGION = "ap-south-1"
-        SONAR_URL = 'http://15.206.28.93:9000/'  // SonarQube URL
+        SONAR_URL = 'http://35.154.146.248:9000/'  // SonarQube URL
         GIT_REPO_NAME = "anand-cicd-argocd"
         GIT_USER_NAME = "ANAND9783"
     }
